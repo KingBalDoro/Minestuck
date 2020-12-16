@@ -52,6 +52,7 @@ public class MSSoundEvents
 	public static final SoundEvent ITEM_GRIMOIRE_USE = getNull();
 	public static final SoundEvent ITEM_EEEEEEEEEEEE_HIT = getNull();
 	public static final SoundEvent EVENT_ECHELADDER_INCREASE = getNull();
+	public static final SoundEvent ITEM_BULLET_FIRE_USE = getNull();
 	
 	@Nonnull
 	@SuppressWarnings("ConstantConditions")
@@ -76,7 +77,7 @@ public class MSSoundEvents
 				"entity.lich.ambient", "entity.lich.hurt", "entity.lich.death",
 				"entity.giclops.ambient", "entity.giclops.hurt", "entity.giclops.death",
 				"item.long_forgotten_warhorn.use", "item.grimoire.use", "item.eeeeeeeeeeee.hit",
-				"event.echeladder.increase");
+				"event.echeladder.increase", "item.bullet_fire.use");
 		
 		for(String path : paths)
 		{

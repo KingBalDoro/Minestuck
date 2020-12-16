@@ -115,6 +115,8 @@ public class MSItems
 	public static final Item REGI_CANE = getNull();
 	public static final Item DRAGON_CANE = getNull();
 	public static final Item POGO_CANE = getNull();
+	//guns
+	public static final Item M1911 = getNull();
 	//Spoons/forks
 	public static final Item WOODEN_SPOON = getNull();
 	public static final Item SILVER_SPOON = getNull();
@@ -236,6 +238,7 @@ public class MSItems
 	public static final Item GAMEGRL_MAGAZINE = getNull();
 	public static final Item CREW_POSTER = getNull();
 	public static final Item SBAHJ_POSTER = getNull();
+	public static final Item TABLESTUCK_BOOK = getNull();
 	//Music disks
 	public static final Item MUSIC_DISC_EMISSARY_OF_DANCE = getNull();
 	public static final Item MUSIC_DISC_DANCE_STAB_DANCE = getNull();
@@ -555,6 +558,10 @@ public class MSItems
 		registry.register(new WeaponItem(MSItemTypes.REGI_TIER, 3, -2.0F, 1.0F, MSItemTypes.MISC_TOOL, new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("regi_cane"));
 		registry.register(new WeaponItem(MSItemTypes.RUBY_TIER, 3, -2.0F, 1.0F, MSItemTypes.MISC_TOOL, new Item.Properties().defaultMaxDamage(300).group(MSItemGroup.WEAPONS)).setRegistryName("dragon_cane"));
 		registry.register(new PogoWeaponItem(MSItemTypes.POGO_TIER, 2, -2.0F, 1.0F, 0.6, MSItemTypes.MISC_TOOL, new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("pogo_cane"));
+
+		//guns
+		registry.register(new GunWeaponItem(new Item.Properties().defaultMaxDamage(7)).setRegistryName("m1911"));
+
 		//Spoons/forks
 		registry.register(new WeaponItem(ItemTier.WOOD, 2, -2.2F, 1.0F, MSItemTypes.SHOVEL_TOOL, new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("wooden_spoon"));
 		registry.register(new WeaponItem(ItemTier.IRON, 1, -2.2F, 1.0F, MSItemTypes.SHOVEL_TOOL, new Item.Properties().group(MSItemGroup.WEAPONS)).setRegistryName("silver_spoon"));

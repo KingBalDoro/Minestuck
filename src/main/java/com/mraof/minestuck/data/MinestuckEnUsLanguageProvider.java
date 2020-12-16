@@ -286,6 +286,7 @@ public class MinestuckEnUsLanguageProvider extends MinestuckLanguageProvider
 		add(MSBlocks.WATER_COLORS, "Paint");
 		add(MSBlocks.ENDER, "End Fluid");
 		add(MSBlocks.LIGHT_WATER, "Light Water");
+
 		
 		add(MSItems.CLAW_HAMMER, "Claw Hammer");
 		addTooltip(MSItems.CLAW_HAMMER, "An average hammer found in about any garage. It can also destroy blocks");
@@ -606,6 +607,9 @@ public class MinestuckEnUsLanguageProvider extends MinestuckLanguageProvider
 		addExtra(MSItems.MUSIC_DISC_DANCE_STAB_DANCE, "desc", "Catboss - Dance-Stab-Dance");
 		add(MSItems.MUSIC_DISC_RETRO_BATTLE, "Music Disc");
 		addExtra(MSItems.MUSIC_DISC_RETRO_BATTLE, "desc", "SinFrog - Retro Battle Theme");
+		add(MSItems.M1911,"M1911");
+		add(MSItems. TABLESTUCK_BOOK, "Tablestuck Book");
+		addTooltip(MSItems.TABLESTUCK_BOOK, "A book from a far off game");
 		
 		addStore(Items.PUMPKIN_PIE, "Tasty Pie");
 		addStoreTooltip(Items.PUMPKIN_PIE, "This pie appeared in storage a few days ago out of nowhere. No idea where it came from, but it sure is tasty!");
@@ -648,6 +652,7 @@ public class MinestuckEnUsLanguageProvider extends MinestuckLanguageProvider
 		addStoreTooltip(Items.PAPER, "A plain canvas, untainted by any inks or dyes!");
 		addStoreTooltip(Items.CLAY_BALL, "A moldable substance with a plain, muted look, free of artificial colors!");
 		addStoreTooltip(Items.CACTUS, "It's the quenchiest!");
+
 		
 		add(MSItemGroup.MAIN, "Minestuck Main");
 		add(MSItemGroup.LANDS, "Minestuck Lands");
